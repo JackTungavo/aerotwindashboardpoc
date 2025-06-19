@@ -85,7 +85,7 @@
 
 /* background */
 .bg-light {
-    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    background-color: rgb(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
 }
 
 /* text colors */

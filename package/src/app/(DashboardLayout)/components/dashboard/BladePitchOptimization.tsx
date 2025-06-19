@@ -7,7 +7,7 @@ import { IconArrowUpLeft } from '@tabler/icons-react';
 
 import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCard';
 
-const YearlyBreakup = () => {
+const BladePitchOptimization = () => {
   // chart color
   const theme = useTheme();
   const primary = theme.palette.primary.main;
@@ -63,7 +63,7 @@ const YearlyBreakup = () => {
   const seriescolumnchart: any = [38, 40, 25];
 
   return (
-    <DashboardCard title="Yearly Breakup">
+    <DashboardCard title="Blade Pitch Optimization">
       <Grid container spacing={3}>
         {/* column */}
         <Grid
@@ -122,4 +122,4 @@ const YearlyBreakup = () => {
   );
 };
 
-export default YearlyBreakup;
+export default BladePitchOptimization;

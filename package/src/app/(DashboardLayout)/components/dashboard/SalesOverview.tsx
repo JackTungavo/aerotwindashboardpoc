@@ -91,7 +91,7 @@ const SalesOverview = () => {
 
     return (
 
-        <DashboardCard title="Sales Overview" action={
+        <DashboardCard title="$ / Energy Yield" action={
             <Select
                 labelId="month-dd"
                 id="month-dd"
@@ -100,8 +100,6 @@ const SalesOverview = () => {
                 onChange={handleChange}
             >
                 <MenuItem value={1}>March 2025</MenuItem>
-                <MenuItem value={2}>April 2025</MenuItem>
-                <MenuItem value={3}>May 2025</MenuItem>
             </Select>
         }>
             <Chart
